@@ -343,37 +343,6 @@ nav .menu_item {
   padding-right: 0;
 }
 
-.footer_container {
-  width: 850px;
-  background: black;
-  display: flex;
-  justify-content: center;
-  margin-left: 450px;
-}
-
-.footer_nav_container {
-  width: 400px;
-  margin-right: 450px;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.footer_nav_item {
-  color: white;
-  text-decoration: none;
-}
-footer {
-  width: 850px;
-  background: black;
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 450px;
-}
 footer nav {
   width: 400px;
   margin-right: 450px;
@@ -383,6 +352,14 @@ footer nav {
   font-size: 14px;
   text-decoration: none;
 }
+
+footer {
+  width: 850px;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 footer nav a {
   color: white;
   text-decoration: none;
@@ -428,4 +405,10 @@ footer nav a {
   margin-bottom: 20px;
   padding-left: 33px;
   padding-right: 33px;
+}
+
+@media (max-width: 800px) {
+  .middle-content .boxes .box_1 {
+    background-color: black;
+  }
 }
